@@ -25,5 +25,12 @@
     --secondary-dark:var(--neutral-800);
     --secondary-dark-hover:var(--neutral-900);
   }
-  
- 
+input{
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+button{
+    padding: 10px;
+    border:none;
+}
