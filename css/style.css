@@ -6,7 +6,10 @@
 .header_main_container{
     width: 100%;
     height: 60vh;
-    background-image: url('../Src/images/pexels-eberhard-grossgasteiger-2088203.jpg');
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-image: url('../Src/images/pexels-pixabay-358319.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -14,6 +17,7 @@
 }
 .nav_cotainer{
     display: flex;
+    width:95%;
     justify-content: space-between;
     padding: 20px 50px;
 }
@@ -35,15 +39,242 @@
     max-width: 1280px;
     width: 100%;
     height: 30vh;
-   box-shadow:1px 2px 4px var(--neutral-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:1px 2px 4px var(--neutral-300);
     position: absolute;
     border: 1px solid rgb(185, 184, 184);
-    bottom:120px;
+    bottom:150px;
     left: 8%;
     background-color:var(--neutral-100);
     border-radius:10px;
+    padding: 10px 20px;
 }
 .header_main_container .header_text{
-    max-width: 400px;
+    max-width: 650px;
     padding: 19px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.header_text h4{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.explore-btn{
+    /* background-color: var(--primary-four); */
+    background-color: black;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.ticket_detail_input_container{
+    width: 95%;
+    height: 50px;
+    background-color: var(--primary-four);
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding:0px 20px;
+}
+.ticket_detail_inputs input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 10px;
+} 
+.ticket_detail_inputs{
+    width:300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-left:1px solid white;
+}
+#ticket_detail_inputs{
+    border-left: none;
+}
+.ticket_detail_inputs-button button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+.ticket_detail_inputs-button{
+   width: 130px;
+   background-color: black;
+   border-radius: 20px;
+   margin-right: -10px;
+}
+.main-body{
+    /* background-color:var(--primary-two); */
+    width: 100%;
+    height:80vh;
+   
+}
+.cards-container{
+   /* position: relative; */
+   /* top: 150px; */
+   margin-top: 150px;
+   width: 100%;
+   flex-direction: column;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+}
+.hotel_card_img{
+    background-color: #fff;
+   overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color: #0f1111;
+}
+.hotel_card_img img{
+    aspect-ratio: 1.5;
+    object-fit: cover;
+    border-radius: 5px;
+    width:100%;
+}
+.hotel_card_container{
+    width: 280px !important;
+   aspect-ratio: 1;
+   background-color: #fff;
+   border: 1px solid rgba(0, 0, 0,0.3);
+   background-color: rgba(190, 186, 186, 0.1);
+   border-radius: 5px;
+   margin-bottom: 10px;
+   /* margin-top: 300px; */
+}
+.hotel_card_title{
+    padding: 0px 10px;
+    font-weight: 600;
+    background-color: #fff;
+    color: rgb(74, 74, 74); 
+}
+.hotel_card_title p:nth-child(1){
+   font-size: 15px;
+   margin:0px;
+}
+.hotel_card_title p:nth-child(2){
+    font-size: 13px;
+    margin:0px;
+    font-weight: 200;
+    margin-top: 5px;
+ }
+ .hotel_card_title p:nth-child(3){
+    font-size: 13px;
+    margin:0px;
+    margin-top: 5px;
+    font-weight: 600;
+    color: rgb(117, 116, 116);
+ }
+ .last_btn_container{
+    background-color: white;
+    border-top: 1px solid rgba(0, 0, 0,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ }
+ .Hotel_card_btn_contact{
+    width: 70%;
+ }
+ .Hotel_card_btn_contact button{
+    width: 100%;
+    border: none;
+    background-color:rgb(253, 53, 31);
+    color: white;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+ }
+ .Hotel_card_heart_icon_container{
+    padding: 5px 7px;
+    border: 1px solid rgba(0, 0, 0,0.3);
+ }
+ .Hotel_card_heart_icon{
+    color:rgb(253, 53, 31);
+     
+ }
+ .cards-_main_parents{
+   width: 80%;
+ }
+ .corde_main_container{
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+    flex-direction: column;
+ }
+ /* footer */
+ footer{
+    margin-top:300px;
+
+}
+.foot-panel{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color :white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    ul {
+        margin-top: 20px;
+
+    }
+
+ul a{
+    display : block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+    text-decoration: none;
+}
+.footpannel3{
+    background-color: #222f3d;
+    color:white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("amazon-dk.png") ;
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-pannel4{
+    background-color: #0f1111;
+    height:80px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+.page{
+    font-size: 0.7rem;
+    text-align: center;
+    /* padding-top: 25px; */
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px;
+
 }

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../../css/global.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div id="login_page">
+        <div class="container">
+            <div class="row" style="text-align: center;">
+                <form class="sign_in_form" onsubmit="event.preventDefault()">
+                    <div class="heading">
+                        <h3 id="signtexxt">Sign In</h3>
+                    </div>
+
+                    <div class="input_group">
+                        <input class="input" name="name" type="text" placeholder="Enter Your Name *">
+                        <span class="highlight"></span>
+                    </div>
+
+                    <div class="input_group">
+                        <input class="input" name="email" type="email" placeholder="E-mail *">
+                        <span class="highlight"></span>
+                    </div>
+
+                    <div class="input_group">
+                        <input class="input" name="password" type="password" placeholder="Password">
+                        <span class="highlight"></span>
+                    </div>
+
+                    <div class="input_group">
+                        <input class="input" name="mobile" type="number" placeholder="Enter Your Mobile *">
+                        <span class="highlight"></span>
+                    </div>
+
+                    <div class="input_group">
+                        <input class="input" name="confirmpassword" type="password" placeholder="Confirm Password">
+                        <span class="highlight"></span>
+                    </div>
+
+                    <a href="#" style="background: 0; color: #707070;">
+                        Forgot password?
+                    </a>
+                    <button class="button" type="submit">Sign In</button>
+
+                    <div class="input_group" style="text-decoration: none; padding-top: 1px;">
+                        <span>Already have an account? <a href="./login.html" class="anchor">Sign In</a></span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
