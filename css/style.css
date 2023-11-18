@@ -9,11 +9,14 @@
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    background-image: url('../Src/images/pexels-pixabay-358319.jpg');
+    background-image: url('.././Src/images/pexels-pixabay-62623.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+#header_main_container_movie{
+    background-image: url('https://images4.alphacoders.com/909/thumb-1920-909185.jpg');  
 }
 .nav_cotainer{
     display: flex;
@@ -23,14 +26,29 @@
 }
 .nav_mid_part ,.nav_last_part{
     display: flex;
-    font-weight: 520;
+    font-weight: 540;
     gap: 30px;
-    color: var(--neutral-700);
+    
+    /* color: var(--neutral-700); */
 }
 .heading_logo{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 550;
-    color: var(--neutral-800);
+    color: var(--neutral-900);
+}
+#header_text_movie{
+    color: white;
+}
+#heading_logo_movie{
+    color: #fff !important;
+    font-size: 30px;
+}
+#heading_logo_movie>span:nth-child(2){
+    color:var(--neutral-500);
+}
+.anchor_nav{
+    color: #fff;
+    font-size: 25px;
 }
 .heading_logo>span:nth-child(2){
     color: var(--neutral-600);
@@ -73,7 +91,7 @@
 .ticket_detail_input_container{
     width: 95%;
     height: 50px;
-    background-color: var(--primary-four);
+    background-color: #ccdcfc;
     display: flex;
     align-items: center;
     border-radius: 25px;
@@ -186,7 +204,7 @@ a{
  .Hotel_card_btn_contact button{
     width: 100%;
     border: none;
-    background-color:rgb(253, 53, 31);
+    background-color:black;
     color: white;
     padding: 10px;
     border-radius: 2px;
@@ -259,7 +277,7 @@ ul a{
     width: 100px;
 }
 .foot-pannel4{
-    background-color: #0f1111;
+    background-color: rgb(31, 34, 34);
     height:80px ;
     display: flex;
     align-items: center;
