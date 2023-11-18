@@ -36,6 +36,9 @@
     font-weight: 550;
     color: var(--neutral-900);
 }
+#header_main_container_train{
+    background-image: url('https://images7.alphacoders.com/107/1075104.jpg'); 
+}
 #header_text_movie{
     color: white;
 }
